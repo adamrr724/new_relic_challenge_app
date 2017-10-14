@@ -20,28 +20,47 @@
         flex: 1 0 auto;
       }
 
+      .name{
+        text-shadow: 1px 1px 1px black;
+      }
+
+      .links{
+        text-shadow: 1px 1px 1px black;
+      }
+
+      .header {
+        height:30px;
+        margin-right:10px;
+      }
+
+      .welcome {
+        padding:10px 0 10px 0;
+        font-size: 20px;
+        text-align: center;
+      }
+
     </style>
-    <link rel="shortcut icon" type="image/x-icon" href="/images/newrelic.png" />
+    <link rel="icon" href="/images/newrelic.png">
     <title>New Relic Challenge</title>
   </head>
   <body>
     <nav>
       <div class="nav-wrapper indigo lighten-1">
-        <a href="/" class="brand-logo center"><img style="height:30px;margin-right:10px;" src="/images/newrelic.png" alt="">Hello New Relic!</a>
+        <a href="/" class="brand-logo center"><img class="header" src="/images/newrelic.png" alt="">Hello New Relic Team!</a>
       </div>
     </nav>
 
     <div class="container">
-      <h5 style="padding:10px 0 10px 0;">Thanks and welcome to my challenge application created in Express.js using Node. Below you will find a mock support discussion between myself and a user (also myself :P) having trouble getting the New Relic Agent installed on their site.</h6>
+      <p class="welcome">Thanks and welcome to my challenge application created in Express.js using Node. Below you will find a mock support discussion between myself and a user (also myself :P) having trouble getting the New Relic Agent installed on their site.</p>
 
       <div class="container left">
-        <h6>Customer Me</h6>
+        <span class="new badge" data-badge-caption="Customer Me" style="float:left;"></span>
         <img style="height: 450px;padding: 10px 0 10px 0;" src="/images/convo1.png" alt="">
       </div>
 
       <div class="container right">
-        <h6 style="float:right;">Support Engineer Me</h6>
-        <img style="height: 450px;padding: 10px 0 10px 0;float: right;" src="/images/convo1.png" alt="">
+        <span class="new badge" data-badge-caption="Support Technician Me" style="float:right;"></span>
+        <img style="height: 600px;padding: 10px 0 10px 0;float: right;" src="/images/convo2.png" alt="">
       </div>
     </div>
 
@@ -49,15 +68,14 @@
        <div class="container">
          <div class="row">
            <div class="col l6 s12">
-             <h5 class="white-text">Adam Ross Russell</h5>
-             <p class="grey-text text-lighten-4">Thanks for stopping by!</p>
+             <h5 class="name white-text">Adam Ross Russell</h5>
+             <p class="name grey-text text-lighten-4">Thanks for stopping by!</p>
            </div>
            <div class="col l4 offset-l2 s12">
-             <h5 class="white-text">Links</h5>
+             <h5 style="text-shadow: 1px 1px 1px black;" class="white-text">Links</h5>
              <ul>
-               <li><a class="grey-text text-lighten-3" href="www.linkedin.com/in/adamrossrussell">LinkedIn</a></li>
-               <li><a class="grey-text text-lighten-3" href="github.com/adamrr724">This Code's Github Link</a></li>
-               <li><a class="grey-text text-lighten-3" href="www.arossrussell.com">Arossrussell.com</a></li>
+               <li><a class="links grey-text text-lighten-3" href="www.linkedin.com/in/adamrossrussell">LinkedIn</a></li>
+               <li><a class="links grey-text text-lighten-3" href="rpm.newrelic.com/accounts/1770576/applications/96885247">This Site's New Relic Dashboard Link</a></li>
              </ul>
            </div>
          </div>
