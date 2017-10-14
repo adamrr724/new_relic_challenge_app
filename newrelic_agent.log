@@ -1,0 +1,4 @@
+{"v":0,"level":30,"name":"newrelic","hostname":"Adams-MacBook-Air.local","pid":13426,"time":"2017-10-14T18:24:46.871Z","msg":"Using New Relic for Node.js. Agent version: 2.2.2; Node version: v6.11.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Adams-MacBook-Air.local","pid":13426,"time":"2017-10-14T18:24:47.528Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Adams-MacBook-Air.local","pid":13426,"time":"2017-10-14T18:24:49.723Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/1770576/applications/96885247","component":"new_relic_response"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Adams-MacBook-Air.local","pid":13426,"time":"2017-10-14T18:24:49.727Z","msg":"Connected to collector-219.newrelic.com:443 with agent run ID 416118977836386197.","component":"collector_api"}
