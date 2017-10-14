@@ -1,5 +1,5 @@
 {
-  "name": "node-js-sample",
+  "name": "new_relic_challenge_app",
   "version": "0.2.0",
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
