@@ -1,4 +1,5 @@
 {
+  "require": "newrelic",
   "name": "New Relic Code Challenge",
   "description": "A barebones Node.js app using Express 4",
   "repository": "",
