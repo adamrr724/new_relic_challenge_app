@@ -9,7 +9,7 @@ A barebones Node.js app using [Express 4](http://expressjs.com/).
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
 ```sh
-git clone https://github.com/adamrr724/new_relic_challenge_app # or clone your own fork
+git clone https://github.com/adamrr724/new_relic_challenge_app.git # or clone your own fork
 cd node-js-sample
 npm install
 npm start
